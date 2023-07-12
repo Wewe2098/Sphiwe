@@ -1,0 +1,2 @@
+* The code could be more modular. This would make it easier to maintain and update.
+* The code could be more readable. This would make it easier for other developers to understand and work on.
