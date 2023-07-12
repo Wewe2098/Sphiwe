@@ -1,2 +1,9 @@
 * The code could be more modular. This would make it easier to maintain and update.
 * The code could be more readable. This would make it easier for other developers to understand and work on.
+
+1. The code could be more modular. This would make it easier to maintain and update. For example, you could create a separate function for each of the steps in the process. This would make it easier to understand the code and to make changes if needed.
+2. The code could be more readable. This would make it easier for other developers to understand and work on. For example, you could use descriptive variable names and add comments to explain what the code is doing.
+Here are the changes that I would make to improve the code:
+1. I would create a separate function for each of the steps in the process. This would make it easier to understand the code and to make changes if needed.
+2. I would use descriptive variable names and add comments to explain what the code is doing. This would make it easier for other developers to understand and work on the code.
+I hope this helps!
