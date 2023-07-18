@@ -91,8 +91,8 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1 style={{ color: "green" }}>GeeksforGeeks</h1>
-        <h3>Rendering Array of Objects</h3>
+        <h1 style={{ color: "green" }}>Shopping Cart</h1>
+        <h3>User Details</h3>
 
         <br></br>
         <RenderingArrayOfObjects />
