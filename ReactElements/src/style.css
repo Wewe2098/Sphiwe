@@ -1,0 +1,22 @@
+/* User Info */
+.user-info {
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  .user-info h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .user-details {
+    margin-bottom: 20px;
+  }
+  .user-details p {
+    margin-bottom: 5px;
+  }
+  .user-details img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
