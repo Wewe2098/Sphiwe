@@ -1,12 +1,18 @@
-function calculateInterestRate(balance, time, rate) {
-    const interest = (balance * rate * time) / 100;
-    return interest;
+class Calculator {
+    constructor() {
+      // constructor logic
+    }
+  
+    add(num1, num2) {
+      return num1 + num2;
+    }
+  
+    subtract(num1, num2) {
+      return num1 - num2;
+    }
   }
   
-  function depositAmount(account, amount) {
-    let currentBalance = account.balance;
-    currentBalance += amount;
-    account.balance = currentBalance;
-  }
-  
+  const calculator = new Calculator();
+  console.log(calculator.add(5, 3)); // Output: 8
+  console.log(calculator.subtract(5, 3)); // Output: 2
   
