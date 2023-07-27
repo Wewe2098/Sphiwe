@@ -1,11 +1,12 @@
-function clcIntRt(b, t, r) {
-    const i = (b * r * t) / 100;
-    return i;
+function calculateInterestRate(balance, time, rate) {
+    const interest = (balance * rate * time) / 100;
+    return interest;
   }
   
-  function depAmt(ac, a) {
-    let b = ac.balance;
-    b += a;
-    ac.balance = b;
+  function depositAmount(account, amount) {
+    let currentBalance = account.balance;
+    currentBalance += amount;
+    account.balance = currentBalance;
   }
+  
   
