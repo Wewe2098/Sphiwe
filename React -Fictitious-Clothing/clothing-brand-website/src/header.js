@@ -14,3 +14,5 @@ const Header = ({ isLoggedIn }) => {
     </header>
   );
 };
+
+export default Header;

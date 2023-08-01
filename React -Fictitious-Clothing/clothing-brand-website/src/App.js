@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './Header';
 
 function App() {
   // Assuming this isLoggedIn state is set in your application's global state management (e.g., Redux, Context API)
