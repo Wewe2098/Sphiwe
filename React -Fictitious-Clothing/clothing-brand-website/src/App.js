@@ -12,20 +12,20 @@ const App = () => {
     {
       name: 'Product 1',
       price: 19.99,
-      description: 'This is a description for Product 1.',
-      imageUrl: '/path/to/product1-image.jpg', // Replace this with the actual image URL for Product 1
+      description: 'Fan',
+      imageUrl: './images/images_1.jpg', 
     },
     {
       name: 'Product 2',
       price: 29.99,
       description: 'This is a description for Product 2.',
-      imageUrl: '/path/to/product2-image.jpg', // Replace this with the actual image URL for Product 2
+      imageUrl: '/path/to/product2-image.jpg',
     },
     {
       name: 'Product 3',
       price: 39.99,
       description: 'This is a description for Product 3.',
-      imageUrl: '/path/to/product3-image.jpg', // Replace this with the actual image URL for Product 3
+      imageUrl: '/path/to/product3-image.jpg', 
     },
   ];
   
