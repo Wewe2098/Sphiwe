@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './header';
+import Header from './Header';
 import LandingPage from './LandingPage';
-import Product from './product';
+import Product from './Product';
 import './App.css'; // Your custom CSS styles or Bootstrap styles
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
