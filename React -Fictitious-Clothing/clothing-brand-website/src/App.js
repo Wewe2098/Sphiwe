@@ -3,9 +3,10 @@ import Header from './header';
 import LandingPage from './LandingPage';
 import Product from './product';
 import './App.css'; // Your custom CSS styles or Bootstrap styles
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 const App = () => {
-  const isLoggedIn = false; // Set this boolean based on your login state
+  const isLoggedIn = false;
 
   const products = [
     {
@@ -28,11 +29,15 @@ const App = () => {
   return (
     <div>
       <Header isLoggedIn={isLoggedIn} />
-      <LandingPage />
-      <div className="products-container">
-        {products.map((product, index) => (
-          <Product key={index} {...product} />
-        ))}
+      <div className="container mt-4">
+        <LandingPage />
+        <div className="row mt-4">
+          {products.map((product, index) => (
+            <div key={index} className="col-md-4">
+              <Product {...product} />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
