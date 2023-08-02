@@ -1,5 +1,23 @@
+// Importing necessary modules and styles
 import React from "react";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css"; // Importing Bootstrap CSS styles
 
+// Importing the component responsible for rendering the table
+import RenderingArrayOfObjects from "./RenderingArrayOfObjects";
+
+// Creating the root element where the React application will be rendered
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+// Rendering the App component wrapped in StrictMode
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+// Function component responsible for rendering the table
 function RenderingArrayOfObjects() {
   const data = [
     {
@@ -53,6 +71,7 @@ function RenderingArrayOfObjects() {
       profile_picture: "https://example.com/images/john.jpg"
     }
   ];
+  // Mapping through the data array to generate table
   const tableRows = data.map((element) => {
     return (
       <tr>
@@ -68,6 +87,7 @@ function RenderingArrayOfObjects() {
       </tr>
     );
   });
+  // Rendering the table
   return (
     <div>
       <thead>
