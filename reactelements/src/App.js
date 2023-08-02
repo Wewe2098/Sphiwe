@@ -2,10 +2,8 @@
 import React from "react";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "bootstrap/dist/css/bootstrap.min.css"; // Importing Bootstrap CSS styles
-
-// Importing the component responsible for rendering the table
-import RenderingArrayOfObjects from "./RenderingArrayOfObjects";
+import "./styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // Creating the root element where the React application will be rendered
 const rootElement = document.getElementById("root");
@@ -28,7 +26,7 @@ function RenderingArrayOfObjects() {
       country: "ZAR",
       email: "nikita@gmail.com",
       telephone: "076-234-8765",
-      profile_picture: "https://example.com/images/john.jpg"
+      profile_picture: "https://example.com/images/mkhize.jpg"
     },
     {
       Name: "Mpho",
@@ -38,7 +36,7 @@ function RenderingArrayOfObjects() {
       country: "ZAR",
       email: "mpho@gmail.com",
       telephone: "083-241-7465",
-      profile_picture: "https://example.com/images/john.jpg"
+      profile_picture: "https://example.com/images/mpho.jpg"
     },
     {
       Name: "Eon",
@@ -48,7 +46,7 @@ function RenderingArrayOfObjects() {
       country: "ZAR",
       email: "eon@gmail.com",
       telephone: "071-009-6575",
-      profile_picture: "https://example.com/images/john.jpg"
+      profile_picture: "https://example.com/images/eon.jpg"
     },
     {
       Name: "Joe",
@@ -58,7 +56,7 @@ function RenderingArrayOfObjects() {
       country: "ZAR",
       email: "joe@gmail.com",
       telephone: "081-476-0985",
-      profile_picture: "https://example.com/images/john.jpg"
+      profile_picture: "https://example.com/images/joe.jpg"
     },
     {
       Name: "Thukzen",
@@ -68,7 +66,7 @@ function RenderingArrayOfObjects() {
       country: "ZAR",
       email: "thukzen@gmail.com",
       telephone: "074-254-8005",
-      profile_picture: "https://example.com/images/john.jpg"
+      profile_picture: "https://example.com/images/thukzen.jpg"
     }
   ];
   // Mapping through the data array to generate table
