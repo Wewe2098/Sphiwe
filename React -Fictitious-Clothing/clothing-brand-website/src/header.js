@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.png';
+import Header from './header.css';
 
-const Header = ({ isLoggedIn }) => {
+const headerBar = ({ isLoggedIn }) => {
   return (
     <header className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
@@ -18,4 +19,4 @@ const Header = ({ isLoggedIn }) => {
   );
 };
 
-export default Header;
+export default headerBar;

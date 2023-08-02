@@ -1,12 +1,13 @@
+
 import React from 'react';
 
-const Product = ({ name, price, description }) => {
+const Product = ({ name, price, description, imageUrl }) => {
   return (
-    <div className="product card p-3 mb-4">
-      <h3 className="card-title">{name}</h3>
-      <p className="card-text">Price: ${price}</p>
-      <p className="card-text">{description}</p>
-      <button className="btn btn-primary">Add to Cart</button>
+    <div className="product-card">
+      <img src={imageUrl} alt={name} className="product-image" />
+      <h3>{name}</h3>
+      <p>{description}</p>
+      <p>Price: ${price}</p>
     </div>
   );
 };
