@@ -2,8 +2,9 @@ import React from 'react';
 import Header from './header';
 import LandingPage from './LandingPage';
 import Product from './product';
-import './App.css'; // Your custom CSS styles or Bootstrap styles
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   const isLoggedIn = false;
@@ -13,7 +14,7 @@ const App = () => {
       name: 'Product 1',
       price: 19.99,
       description: 'Fan',
-      imageUrl: './images/images_1.jpg', 
+      imageUrl: './images/image', 
     },
     {
       name: 'Product 2',
