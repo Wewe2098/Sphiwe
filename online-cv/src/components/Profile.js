@@ -25,9 +25,11 @@ export default class Profile extends Component {
         <div className='card light-blue darken-4 z-depth-0'>
             <div className='card-content'>
                 <h6 className='white-text'>
-                  <strong>#Profile</strong>
+                  <strong>#PROFILE</strong>
                 </h6>
-                <p></p>
+                <p className='grey-text text-lighten-3 pt'>
+                I am a 37-year-old professional with a passion for design and web development. With a creative mindset and self-motivated nature, I thrive on bringing innovative ideas to life. My ambition and goal-oriented approach drive me to continually push my limits and exceed expectations. I'm no stranger to handling pressure; in fact, I thrive under it, using it as a catalyst for delivering my best work
+                </p>
             </div>
         </div>
       </div>
