@@ -22,6 +22,14 @@ export default class Profile extends Component {
                 </a>
             </div>
         </div>
+        <div className='card light-blue darken-4 z-depth-0'>
+            <div className='card-content'>
+                <h6 className='white-text'>
+                  <strong>#Profile</strong>
+                </h6>
+                <p></p>
+            </div>
+        </div>
       </div>
     )
   }
