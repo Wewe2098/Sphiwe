@@ -5,8 +5,10 @@ export default class Profile extends Component {
   render() {
     return (
       <div>
-        <div className='avartarImg'>
-          <img className='circle responsive-img' src={ImgProfile} alt='Sphiwe Mkwatheni' />
+        <div className="avartarImg">
+          <img className='circle responsive-img'
+          src={ImgProfile}
+          alt='Sphiwe Mkwatheni' />
         </div>
         <div className='card light-blue darken-4 z-depth-0 hide-on-large-only'>
             <div className='card-content center social'>

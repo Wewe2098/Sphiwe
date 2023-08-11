@@ -12,12 +12,12 @@ export default class Home extends Component {
     return (
       <section>
         <div className='row'>
-          <div className='col s12 m6 l4 light-grey darken-4 sameHeight_child'>
+          <div className='col s12 m12 l4 light-grey darken-4 sameHeight_child'>
             <Profile />
             <Contact />
             <Skills />
           </div>
-          <div className='col s12 m6 l8 white sameHeight_child'>
+          <div className='col s12 m12 l8 white sameHeight_child'>
             <About />
             <Educations />
             <Experiences />

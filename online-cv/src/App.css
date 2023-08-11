@@ -6,6 +6,11 @@
   align-items: stretch;
 }
 
+.avartarImg {
+    padding: 0 12px 0 12px;
+    box-shadow: 0 4px 8px rgba(0, 23, 0, 0.1);
+}
+
 .wrap-content {
   margin-top: 50px;
   margin-bottom: 50px;
