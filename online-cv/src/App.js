@@ -9,7 +9,7 @@ function App() {
     <div className='wrap-content'>
       <div className='container'>
         <Router>
-          <Route exact path='/' Component={<Home />} />
+          <Route exact path="/" Component={Home} />
          </Router>
       </div>
     </div>
