@@ -16,11 +16,24 @@ export default class Experiences extends Component {
                 <div className='col s12'>
                   <blockquote className='content-right'>
                     <h6 className='no-pad mt-bottom'>
-                      <strong>WEB DEVELOPER</strong>
+                      <strong>FULL STACK DEVELOPER</strong>
                       <span>2023 - Till Date</span>
                     </h6>
                     <p className='pt'>
                       Still in training and studing
+                    </p>
+                  </blockquote>
+                </div>
+            </div>
+            <div className='row mt'>
+                <div className='col s12'>
+                  <blockquote className='content-right'>
+                    <h6 className='no-pad mt-bottom'>
+                      <strong>DIGITAL DESIGNER</strong>
+                      <span>2018 - Till Date</span>
+                    </h6>
+                    <p className='pt'>
+                      I design banners, websites and logo's
                     </p>
                   </blockquote>
                 </div>
