@@ -20,7 +20,7 @@ export default class Experiences extends Component {
                       <span>2023 - Till Date</span>
                     </h6>
                     <p className='pt'>
-                      
+                      Still in training and studing
                     </p>
                   </blockquote>
                 </div>
