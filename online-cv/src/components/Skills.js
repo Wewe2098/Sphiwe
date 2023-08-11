@@ -14,25 +14,25 @@ export default class Skills extends Component {
                   <div className='col m6 s12'>
                     <p className='grey-text text-lighten-3'>HTML</p>
                     <div className='progress white'>
-                      <div className='determinate grey' style={`width: 89%`}></div>
+                      <div className='determinate grey' style={{width: '89%'}}></div>
                     </div>
                   </div>
                   <div className='col m6 s12'>
                     <p className='grey-text text-lighten-3'>CSS</p>
                     <div className='progress white'>
-                      <div className='determinate grey' style={`width: 91%`}></div>
+                      <div className='determinate grey' style={{width: '91%'}}></div>
                     </div>
                   </div>
                   <div className='col m6 s12'>
                     <p className='grey-text text-lighten-3'>JavaScript</p>
                     <div className='progress white'>
-                      <div className='determinate grey' style={`width: 79%`}></div>
+                      <div className='determinate grey' style={{width: '79%'}}></div>
                     </div>
                   </div>
                   <div className='col m6 s12'>
                     <p className='grey-text text-lighten-3'>React</p>
                     <div className='progress white'>
-                      <div className='determinate grey' style={`width: 70%`}></div>
+                      <div className='determinate grey' style={{width: '77%'}}></div>
                     </div>
                   </div>
                 </div>

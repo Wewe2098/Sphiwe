@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class Educations extends Component {
   render() {
@@ -6,41 +6,37 @@ export default class Educations extends Component {
       <div>
         <div className='card z-depth-0'>
           <div className='card-content'>
-              <h6>
-                <strong>
-                  <i className='fas fa-graduatetion-cap'></i> EDUCATION
-                </strong>
-              </h6>
-              <hr />
-              <div className='row mt'>
-                <div className='col s12'>
-                  <blockquote className='content-right'>
-                    <h6 className='no-pad mt-bottom'>
-                      <strong>FULL STACK DEVELOPER</strong>
-                      <span>2023 - Till Date</span>
-                    </h6>
-                    <p className='pt'>
-                      Still in training and studing
-                    </p>
-                  </blockquote>
-                </div>
+            <h6>
+              <strong>
+                <i className='fas fa-graduation-cap'></i> EDUCATION
+              </strong>
+            </h6>
+            <hr />
+            <div className='row mt'>
+              <div className='col s12'>
+                <blockquote className='left-align'>
+                  <h6 className='no-pad mt-bottom'>
+                    <strong>FULL STACK DEVELOPER</strong>
+                    <span>2023 - Present</span>
+                  </h6>
+                  <p className='pt'>Still in training and studying</p>
+                </blockquote>
+              </div>
             </div>
             <div className='row mt'>
-                <div className='col s12'>
-                  <blockquote className='content-right'>
-                    <h6 className='no-pad mt-bottom'>
-                      <strong>DTP Publication</strong>
-                      <span>2018 - 2018</span>
-                    </h6>
-                    <p className='pt'>
-                      Vaga
-                    </p>
-                  </blockquote>
-                </div>
+              <div className='col s12'>
+                <blockquote className='left-align'>
+                  <h6 className='no-pad mt-bottom'>
+                    <strong>DTP Publication</strong>
+                    <span>2018</span>
+                  </h6>
+                  <p className='pt'>Vaga</p>
+                </blockquote>
+              </div>
             </div>
-        </div>
+          </div>
         </div>
       </div>
-    )
+    );
   }
 }
