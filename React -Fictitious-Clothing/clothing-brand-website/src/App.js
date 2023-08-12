@@ -28,6 +28,36 @@ const App = () => {
       description: 'Fan',
       imageUrl: '/images/image_3.jpg', 
     },
+    {
+      price: 79.99,
+      description: 'Fan',
+      imageUrl: '/images/image_4.jpg', 
+    },
+    {
+      price: 69.99,
+      description: 'Fan',
+      imageUrl: '/images/image_5.jpg',
+    },
+    {
+      price: 39.99,
+      description: 'Fan',
+      imageUrl: '/images/image_6.jpg', 
+    },
+    {
+      price: 49.99,
+      description: 'Fan',
+      imageUrl: '/images/image_7.jpg', 
+    },
+    {
+      price: 99.99,
+      description: 'Fan',
+      imageUrl: '/images/image_8.jpg',
+    },
+    {
+      price: 89.99,
+      description: 'Fan',
+      imageUrl: '/images/image_9.jpg', 
+    },
   ];
 
   const location = useLocation();
