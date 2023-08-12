@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './header';
+import HeaderBar from './header'; 
 import LandingPage from './LandingPage';
 import Product from './product';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 const App = () => {
@@ -32,19 +33,26 @@ const App = () => {
   
 
   return (
-    <div>
-      <Header isLoggedIn={isLoggedIn} />
-      <div className="container mt-4">
-        <LandingPage />
-        <div className="row mt-4">
-          {products.map((product, index) => (
-            <div key={index} className="col-md-4">
-              <Product {...product} />
-            </div>
-          ))}
+    <Router>
+      <div>
+        <HeaderBar isLoggedIn={isLoggedIn} />
+        <div className="container mt-4">
+          <Switch>
+            <Route path="/" exact component={LandingPage} />
+            <Route path="/profile" render={() => <div>Profile Page</div>} />
+            <Route path="/shop" render={() => <div>Shop Page</div>} />
+            <Route path="/legal" render={() => <div>Legal Page</div>} />
+          </Switch>
+          <div className="row mt-4">
+            {products.map((product, index) => (
+              <div key={index} className="col-md-4">
+                <Product {...product} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </Router>
   );
 };
 
