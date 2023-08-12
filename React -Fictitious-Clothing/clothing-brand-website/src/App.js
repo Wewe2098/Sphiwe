@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderBar from './header'; 
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import Profile from './profile'; 
 import Shop from './shop'; 
@@ -14,24 +14,25 @@ const App = () => {
 
   const products = [
     {
-      name: 'Product 1',
       price: 19.99,
       description: 'Fan',
-      imageUrl: './images/image', 
+      imageUrl: '/images/image_1.jpg', 
     },
     {
-      name: 'Product 2',
       price: 29.99,
-      description: 'This is a description for Product 2.',
-      imageUrl: '/path/to/product2-image.jpg',
+      description: 'Fan',
+      imageUrl: '/images/image_2.jpg',
     },
     {
-      name: 'Product 3',
       price: 39.99,
-      description: 'This is a description for Product 3.',
-      imageUrl: '/path/to/product3-image.jpg', 
+      description: 'Fan',
+      imageUrl: '/images/image_3.jpg', 
     },
   ];
+
+  const location = useLocation();
+
+  const shouldDisplayProducts = location.pathname === '/shop' || location.pathname === '/';
 
   return (
     <div>
@@ -43,13 +44,15 @@ const App = () => {
           <Route path="/shop" element={<Shop />} />
           <Route path="/legal" element={<Legal />} />
         </Routes>
-        <div className="row mt-4">
-          {products.map((product, index) => (
-            <div key={index} className="col-md-4">
-              <Product {...product} />
-            </div>
-          ))}
-        </div>
+        {shouldDisplayProducts && (
+          <div className="row mt-4">
+            {products.map((product, index) => (
+              <div key={index} className="col-md-4">
+                <Product {...product} />
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

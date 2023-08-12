@@ -2,7 +2,7 @@ import React from 'react';
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="landing-page text-center">
       <h1>Welcome to Our Clothing Brand!</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu

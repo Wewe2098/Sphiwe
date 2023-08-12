@@ -30,4 +30,30 @@ body {
   font-weight: bold;
 }
 
-/* Additional custom styles can be added here */
+/* Style the product cards */
+.product-card {
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the logout button */
+.profile-page .btn {
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
