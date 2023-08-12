@@ -7,7 +7,7 @@ const ProfilePage = () => {
 
   return (
     <div>
-      <h1>User Profile Page</h1>
+      <h3>User Profile Page</h3>
       <button onClick={handleLogout}>Logout</button>
     </div>
   );

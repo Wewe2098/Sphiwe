@@ -11,6 +11,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Import images
 import image_1 from './images/image_1.jpg';
+import image_2 from './images/image_2.jpg';
+import image_3 from './images/image_3.jpg';
+import image_4 from './images/image_4.jpg';
+import image_5 from './images/image_5.jpg';
+import image_6 from './images/image_6.jpg';
+import image_7 from './images/image_7.jpg';
+import image_8 from './images/image_8.jpg';
+import image_9 from './images/image_9.jpg';
 
 const App = () => {
   const isLoggedIn = false;
@@ -18,48 +26,48 @@ const App = () => {
   const products = [
     {
       price: 19.99,
-      description: 'Fan',
-      imageUrl: '/images/image_1.jpg', 
+      description: 'Desk Fan',
+      imageUrl: image_1, 
     },
     {
       price: 29.99,
-      description: 'Fan',
-      imageUrl: '/images/image_2.jpg',
+      description: 'Table Lamp',
+      imageUrl: image_2,
     },
     {
       price: 39.99,
-      description: 'Fan',
-      imageUrl: '/images/image_3.jpg', 
+      description: 'Hanging Rope Chair',
+      imageUrl: image_3, 
     },
     {
       price: 79.99,
-      description: 'Fan',
-      imageUrl: '/images/image_4.jpg', 
+      description: 'Hanging Rope Chair',
+      imageUrl: image_4, 
     },
     {
       price: 69.99,
-      description: 'Fan',
-      imageUrl: '/images/image_5.jpg',
+      description: 'Gym Bag Set',
+      imageUrl: image_5,
     },
     {
       price: 39.99,
-      description: 'Fan',
-      imageUrl: '/images/image_6.jpg', 
+      description: 'Cocktail Shaker Bartender',
+      imageUrl: image_6, 
     },
     {
       price: 49.99,
-      description: 'Fan',
-      imageUrl: '/images/image_7.jpg', 
+      description: 'Play Yard',
+      imageUrl: image_7, 
     },
     {
       price: 99.99,
-      description: 'Fan',
-      imageUrl: '/images/image_8.jpg',
+      description: 'Baby Bathtub',
+      imageUrl: image_8,
     },
     {
       price: 89.99,
-      description: 'Fan',
-      imageUrl: '/images/image_9.jpg', 
+      description: 'Lounger Chair',
+      imageUrl: image_9, 
     },
   ];
 
