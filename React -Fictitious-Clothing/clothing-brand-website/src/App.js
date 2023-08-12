@@ -9,6 +9,9 @@ import Product from './product';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Import images
+import image_1 from './images/image_1.jpg';
+
 const App = () => {
   const isLoggedIn = false;
 
