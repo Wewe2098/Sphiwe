@@ -1,11 +1,13 @@
 import React from 'react';
 import HeaderBar from './header'; 
+import { Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
+import Profile from './profile'; 
+import Shop from './shop'; 
+import Legal from './legal';
 import Product from './product';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
 
 const App = () => {
   const isLoggedIn = false;
@@ -30,29 +32,26 @@ const App = () => {
       imageUrl: '/path/to/product3-image.jpg', 
     },
   ];
-  
 
   return (
-    <Router>
-      <div>
-        <HeaderBar isLoggedIn={isLoggedIn} />
-        <div className="container mt-4">
-          <Switch>
-            <Route path="/" exact component={LandingPage} />
-            <Route path="/profile" render={() => <div>Profile Page</div>} />
-            <Route path="/shop" render={() => <div>Shop Page</div>} />
-            <Route path="/legal" render={() => <div>Legal Page</div>} />
-          </Switch>
-          <div className="row mt-4">
-            {products.map((product, index) => (
-              <div key={index} className="col-md-4">
-                <Product {...product} />
-              </div>
-            ))}
-          </div>
+    <div>
+      <HeaderBar isLoggedIn={isLoggedIn} />
+      <div className="container mt-4">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/legal" element={<Legal />} />
+        </Routes>
+        <div className="row mt-4">
+          {products.map((product, index) => (
+            <div key={index} className="col-md-4">
+              <Product {...product} />
+            </div>
+          ))}
         </div>
       </div>
-    </Router>
+    </div>
   );
 };
 
