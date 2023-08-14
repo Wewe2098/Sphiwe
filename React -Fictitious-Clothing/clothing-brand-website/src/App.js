@@ -25,47 +25,47 @@ const App = () => {
 
   const products = [
     {
-      price: 19.99,
+      price: 319.99,
       description: 'Desk Fan',
       imageUrl: image_1, 
     },
     {
-      price: 29.99,
+      price: 429.99,
       description: 'Table Lamp',
       imageUrl: image_2,
     },
     {
-      price: 39.99,
+      price: 1739.99,
       description: 'Hanging Rope Chair',
       imageUrl: image_3, 
     },
     {
-      price: 79.99,
+      price: 679.99,
       description: 'Hanging Rope Chair',
       imageUrl: image_4, 
     },
     {
-      price: 69.99,
+      price: 1769.99,
       description: 'Gym Bag Set',
       imageUrl: image_5,
     },
     {
-      price: 39.99,
+      price: 539.99,
       description: 'Cocktail Shaker Bartender',
       imageUrl: image_6, 
     },
     {
-      price: 49.99,
+      price: 749.99,
       description: 'Play Yard',
       imageUrl: image_7, 
     },
     {
-      price: 99.99,
+      price: 299.99,
       description: 'Baby Bathtub',
       imageUrl: image_8,
     },
     {
-      price: 89.99,
+      price: 2389.99,
       description: 'Lounger Chair',
       imageUrl: image_9, 
     },
