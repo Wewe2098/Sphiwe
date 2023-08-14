@@ -6,6 +6,7 @@ import Profile from './profile';
 import Shop from './shop'; 
 import Legal from './legal';
 import Product from './product';
+import InterestCalculator from './InterestCalculator';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -84,6 +85,7 @@ const App = () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/legal" element={<Legal />} />
+          <Route path="/interest-calculator" element={<InterestCalculator />} />
         </Routes>
         {shouldDisplayProducts && (
           <div className="row mt-4">
