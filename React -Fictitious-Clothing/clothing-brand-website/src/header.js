@@ -39,7 +39,7 @@ const HeaderBar = ({ isLoggedIn }) => {
                 <Link to="/legal" className="nav-link">Legal</Link>
               </li>
               <li className="nav-item">
-                <Link to="/interestcalculator" className="nav-link">Interest Calculator</Link>
+                <Link to="/InterestCalculator" className="nav-link">Interest Calculator</Link>
               </li>
             </ul>
           </div>
