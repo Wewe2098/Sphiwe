@@ -5,7 +5,10 @@ import About from './components/About';
 import Carousel from './components/Carousel';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
-import './App.css';
+import Market from './components/Market';
+import MealKids from './components/Meal-Kit';
+import Frozen from './components/Frozen';
+
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
       <About />
       <Carousel />
       <Testimonials />
+      <Market /> 
+      <MealKids />
+      <Frozen />
       <Footer />
     </div>
   );
