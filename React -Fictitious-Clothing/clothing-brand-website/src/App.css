@@ -43,6 +43,7 @@ body {
 .product-image {
   max-width: 60%;
   height: auto;
+  width: fit-content;
 }
 
 /* Style the logout button */
