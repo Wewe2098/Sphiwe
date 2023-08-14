@@ -8,7 +8,7 @@ const Product = ({ name, price, description, imageUrl }) => {
       <h3>{name}</h3>
       <p>{description}</p>
       <p>Price: R{price}</p>
-      <Link to="/InterestCalculator" className="btn btn-primary">Add to Shopping Total</Link>
+      <Link to="/InterestCalculator" className="btn btn-primary">Add to card</Link>
     </div>
   );
 };
