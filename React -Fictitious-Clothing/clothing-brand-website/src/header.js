@@ -38,6 +38,9 @@ const HeaderBar = ({ isLoggedIn }) => {
               <li className="nav-item">
                 <Link to="/legal" className="nav-link">Legal</Link>
               </li>
+              <li className="nav-item">
+                <Link to="/interestcalculator" className="nav-link">Interest Calculator</Link>
+              </li>
             </ul>
           </div>
           <div className="navbar-nav ms-auto">
