@@ -1,4 +1,4 @@
-// Carousel.js
+
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselImage1 from '../images/carousel-1.jpg';

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Card from './Card'; // Assuming you have a Card component
+import Card from './Card';
 
 const HomeCard = ({ title, content }) => {
   return (

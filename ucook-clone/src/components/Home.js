@@ -2,18 +2,17 @@
 import React from 'react';
 import Carousel from './Carousel';
 import Banner from './Banner';
-import HomeCard from './HomeCard';
+import HomeCard from './Card';
 import './Home.css';
 
 const Home = () => {
   return (
     <div className="home">
       <Banner />
-      <Carousel />
       <section className="home-cards">
         <div className="card-container">
           <HomeCard
-            title="Discover New Recipes"
+            title="1.You choose"
             content="Explore a wide range of delicious recipes from various cuisines."
           />
           <HomeCard
@@ -26,6 +25,7 @@ const Home = () => {
           />
         </div>
       </section>
+      <Carousel />
     </div>
   );
 };

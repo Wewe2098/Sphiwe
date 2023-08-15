@@ -9,6 +9,7 @@ import Frozen from './components/Frozen';
 import Wine from './components/Wine';
 import WeekendBoxes from './components/WeekendBoxes';
 import PartnerWithUs from './components/PartnerWithUs';
+import Basket from './components/Basket';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/weekendboxes" element={<WeekendBoxes />} />
         <Route path="/about" element={<About />} />
         <Route path="/partnerwithus" element={<PartnerWithUs />} />
+        <Route path="/basket" element={<Basket />} />
         <Route path="*" element={<div>404 Page not found</div>} />
       </Routes>
     </div>

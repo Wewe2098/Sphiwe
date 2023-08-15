@@ -39,15 +39,17 @@ const Header = () => {
               <NavDropdown.Item as={Link} to="/About">About Ucook</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/PartnerWithUs">Partner With Us</Nav.Link>
-          </Nav>
-          <Nav>
+            </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <Navbar className="mr-auto">
+      <Nav className="float-right">
             <Nav.Link as={Link} to="/login">Log In</Nav.Link>
             <Nav.Link as={Link} to="/signup">Sign Up</Nav.Link>
             <Nav.Link as={Link} to="/basket">
-              <i className="fas fa-shopping-basket"></i> Basket <span className="badge">3</span>
+              <i className="fas fa-shopping-basket"></i><span className="badge">3</span>
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
       </Navbar>
     </header>
   );
