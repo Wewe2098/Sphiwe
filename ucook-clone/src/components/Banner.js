@@ -1,12 +1,17 @@
-// Banner.js
+
 import React from 'react';
+import './Banner.css';
+import bannerImage from '../images/banner-image.jpg';
 
 const Banner = () => {
   return (
-    <section className="banner">
-      <h1>Welcome to Cooking Delights!</h1>
-      <p>Discover the art of cooking with our delicious recipes.</p>
-    </section>
+    <div className="banner">
+      <img src={bannerImage} alt="Banner" />
+      <div className="banner-text">
+        <h2>Welcome to Our Cooking Platform</h2>
+        <p>Discover delicious recipes and culinary adventures!</p>
+      </div>
+    </div>
   );
 };
 

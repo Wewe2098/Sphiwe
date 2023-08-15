@@ -1,38 +1,19 @@
+// Home.js
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import CarouselImage1 from '../images/carousel-1.jpg';
-import CarouselImage2 from '../images/carousel-2.jpg';
-import CarouselImage3 from '../images/carousel-3.jpg';
+import Carousel from './Carousel';
+import Banner from './Banner'; // Import the new Banner component
+import Card from './Card';
 
-function UncontrolledExample() {
+const Home = () => {
   return (
-    <Carousel>
-      <Carousel.Item>
-        <CarouselImage1 text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <CarouselImage2 text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <CarouselImage3 text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <div className="home">
+      <Carousel />
+      <Banner />
+      <section className="about">
+        <h2>About Cooking</h2>
+      </section>
+    </div>
   );
-}
+};
 
-export default UncontrolledExample;
+export default Home;
