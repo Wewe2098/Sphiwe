@@ -10,7 +10,6 @@ import Wine from './components/Wine';
 import WeekendBoxes from './components/WeekendBoxes';
 import PartnerWithUs from './components/PartnerWithUs';
 
-
 const App = () => {
   return (
       <div className="App">
