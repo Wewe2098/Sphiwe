@@ -1,11 +1,10 @@
-// Basket.js
+
 import React, { useState } from 'react';
 import { Offcanvas, Button, Form } from 'react-bootstrap';
 import './Basket.css';
 
 const Basket = () => {
   const [showBasket, setShowBasket] = useState(false);
-  const [items, setItems] = useState([]);
   const [walletPoints, setWalletPoints] = useState(0);
   const [discountCode, setDiscountCode] = useState('');
   const [total, setTotal] = useState(0);
@@ -31,8 +30,6 @@ const Basket = () => {
 
   return (
     <>
-      <Button variant="secondary" onClick={() => setShowBasket(true)}>
-        <i className="fas fa-shopping-basket"></i></Button>
 
       <Offcanvas show={showBasket} onHide={() => setShowBasket(false)} placement="end">
         <Offcanvas.Header closeButton>
@@ -40,9 +37,7 @@ const Basket = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <ul>
-            {items.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
+            {/* Display items */}
           </ul>
           <Form.Group>
             <Form.Label>Use Wallet Points:</Form.Label>

@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Navbar, Nav, NavDropdown, Button, Offcanvas } from 'react-bootstrap';
 import './Header.css';
 import logo from '../images/large.svg';
 
 const Header = () => {
+  const [showBasket, setShowBasket] = useState(false);
+
   return (
     <header className="header-container">
       <Navbar expand="lg">
@@ -41,16 +41,23 @@ const Header = () => {
             <Nav.Link as={Link} to="/PartnerWithUs">Partner With Us</Nav.Link>
             </Nav>
         </Navbar.Collapse>
-      </Navbar>
+        </Navbar>
       <Navbar className="mr-auto">
-      <Nav className="float-right">
-            <Nav.Link as={Link} to="/login">Log In</Nav.Link>
-            <Nav.Link as={Link} to="/signup">Sign Up</Nav.Link>
-            <Nav.Link as={Link} to="/basket">
-              <i className="fas fa-shopping-basket"></i><span className="badge">3</span>
-            </Nav.Link>
-          </Nav>
+        <Nav className="float-right">
+          <Nav.Link as={Link} to="/login">Log In</Nav.Link>
+          <Nav.Link as={Link} to="/signup">Sign Up</Nav.Link>
+          <Button variant="secondary" onClick={() => setShowBasket(true)}>
+            <i className="fas fa-shopping-basket"></i></Button>
+        </Nav>
       </Navbar>
+      <Offcanvas show={showBasket} onHide={() => setShowBasket(false)} placement="end">
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>On Demand order</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+        <p>Payment on checkout</p>
+        </Offcanvas.Body>
+      </Offcanvas>
     </header>
   );
 };
