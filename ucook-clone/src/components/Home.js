@@ -1,16 +1,30 @@
-// Home.js
+
 import React from 'react';
 import Carousel from './Carousel';
-import Banner from './Banner'; // Import the new Banner component
-import Card from './Card';
+import Banner from './Banner';
+import HomeCard from './HomeCard';
+import './Home.css';
 
 const Home = () => {
   return (
     <div className="home">
-      <Carousel />
       <Banner />
-      <section className="about">
-        <h2>About Cooking</h2>
+      <Carousel />
+      <section className="home-cards">
+        <div className="card-container">
+          <HomeCard
+            title="Discover New Recipes"
+            content="Explore a wide range of delicious recipes from various cuisines."
+          />
+          <HomeCard
+            title="Culinary Workshops"
+            content="Join our workshops to learn essential cooking techniques from experts."
+          />
+          <HomeCard
+            title="Fresh Ingredients"
+            content="Cook with high-quality, seasonal ingredients for flavorful meals."
+          />
+        </div>
       </section>
     </div>
   );

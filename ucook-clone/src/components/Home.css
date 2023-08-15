@@ -1,0 +1,11 @@
+
+.home-cards {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+  }
+  
+  .home-cards .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
