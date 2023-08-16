@@ -1,7 +1,5 @@
 
-.banner-2 {
-    background-color: #27b507b0;
-  }
+
   
   .banner-2-content {
     display: flex;
@@ -20,10 +18,10 @@
         margin-right: -136px;
     }
   
-  .text {
+  .text-2 {
     color: white;
     flex: 1;
-    padding: 50px; 
+    padding-left: 90px; 
   }
   
   .text h1 {
@@ -50,16 +48,16 @@
     border-radius: 0px 0px 0px 60px;
     padding-right: 0 !important;
   }
-  #dinner {
-    background-color: aquamarine;
+  .dinner {
+    background-color: rgba(148, 149, 148, 0.484);
   }
-  #food {
-    background-color: rgb(9, 174, 45);
+  .food {
+    background-color: #27b5077f;
   }
-  #toast {
-    background-color: aquamarine;
+  .toast {
+    background-color: rgba(148, 149, 148, 0.484);
   }
-  #roasted {
-    background-color: rgb(9, 174, 45);
+  .roasted {
+    background-color: #27b5077f;
   }
   

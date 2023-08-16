@@ -5,6 +5,8 @@ import Banner from './Banner';
 import './Home.css';
 import BannerCart from './BannerCart';
 import Testimonials from './Testimonials';
+import CardCarousel from './CardCarousel';
+import Footer from './Footer';
 
 // Import images
 import YouChoose from '../images/you-choose.svg';
@@ -82,7 +84,9 @@ const Home = () => {
         <Button variant="dark">GET STARTED NOW</Button>
       </section>
       <Testimonials />
+      <CardCarousel />
       <Carousel />
+      <Footer />
     </div>
   );
 };

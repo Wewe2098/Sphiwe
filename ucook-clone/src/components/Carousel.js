@@ -14,7 +14,7 @@ const ImageCarousel = () => {
       <Carousel.Item className='dinner'>
         <div className="banner-2">
           <div className="banner-2-content">
-            <div className="text">
+            <div className="text-2">
               <h1>Celebrate Creation</h1>
               <h1>Wines</h1>
               <p>and get 25% off when you buy Any 3 bottles</p>
@@ -29,7 +29,7 @@ const ImageCarousel = () => {
       <Carousel.Item className='food'>
         <div className="banner-2">
           <div className="banner-2-content">
-            <div className="text">
+            <div className="text-2">
               <h1>Cosy up with comfort</h1>
               <h1>Food</h1>
               <p>Our range of Frozen Craft Meals are quick, easy and delicious</p>
@@ -44,7 +44,7 @@ const ImageCarousel = () => {
       <Carousel.Item className='toast'>
         <div className="banner-2">
           <div className="banner-2-content">
-            <div className="text">
+            <div className="text-2">
               <h1>Let's raise a toast</h1>
               <p>to UCOOK Market's Bread & Bakery range</p>
               <Button variant="outline-light">SHOP MARKET</Button>
@@ -58,7 +58,7 @@ const ImageCarousel = () => {
       <Carousel.Item className='roasted'>
         <div className="banner-2">
           <div className="banner-2-content">
-            <div className="text">
+            <div className="text-2">
               <h1>Try something with</h1>
               <h1>roasted flavours</h1>
               <p>Like our exquisite Moroccan Beet Labneh & Lamb</p>
