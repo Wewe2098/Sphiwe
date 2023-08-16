@@ -1,32 +1,65 @@
 
 .banner-2 {
-    background-color: #ececec; 
-    padding: 20px; 
+    background-color: #27b507b0;
   }
   
   .banner-2-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
+
+  span.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 5px;
+    margin-left: -136px;
+    }
+
+    span.carousel-control-next-icon {
+        background-color: black;
+        border-radius: 5px;
+        margin-right: -136px;
+    }
   
   .text {
+    color: white;
     flex: 1;
-    padding-left: 90px;
+    padding: 50px; 
   }
   
-  .text h2 {
+  .text h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
   }
   
+  .text h3 {
+    font-size: 1.2rem; 
+  }
+  
   .text p {
     font-size: 1.2rem;
+    margin-bottom: 20px; 
   }
   
-  .image img {
-    max-width: 55%;
-    float: right;
+  .image-2 {
+    flex: 2; 
+    text-align: right;
   }
   
+  .image-2 img {
+    max-width: 90%;
+    border-radius: 0px 0px 0px 60px;
+    padding-right: 0 !important;
+  }
+  #dinner {
+    background-color: aquamarine;
+  }
+  #food {
+    background-color: rgb(9, 174, 45);
+  }
+  #toast {
+    background-color: aquamarine;
+  }
+  #roasted {
+    background-color: rgb(9, 174, 45);
+  }
   
