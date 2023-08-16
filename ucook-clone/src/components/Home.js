@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import Carousel from './Carousel';
 import Banner from './Banner';
-import './Home.css';
 import BannerCart from './BannerCart';
+import './Home.css';
 import Testimonials from './Testimonials';
 import CardCarousel from './CardCarousel';
+import Carousel from './Carousel';
 import Footer from './Footer';
 
 // Import images
