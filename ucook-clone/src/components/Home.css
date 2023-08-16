@@ -90,5 +90,56 @@
   text-decoration: none;
 }
 
+.why-ucook {
+  text-align: center;
+  background-color: #ececec; 
+  padding: 20px; 
+}
+
+.why-ucook-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.why-ucook-item {
+  flex: 1;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.why-ucook {
+  background-color: #ececec;
+  padding: 80px 0;
+}
+
+.why-ucook-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.why-ucook-item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.why-ucook-item img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.why-ucook-item h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.why-ucook-item p {
+  font-size: 16px;
+  color: #666;
+}
 
   

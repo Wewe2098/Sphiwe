@@ -25,8 +25,8 @@ const Testimonials = () => {
       <div className="testimonial-cards">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-card">
-            <p className="testimonial-text">{testimonial.text}</p>
             <p className="testimonial-name">{testimonial.name}</p>
+            <p className="testimonial-text">{testimonial.text}</p>
           </div>
         ))}
       </div>
