@@ -1,70 +1,110 @@
-/* Footer Container */
+/* Footer container */
 .footer {
-    background-color: #f7f7f7;
-    padding: 40px 0;
-  }
-  
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+/* Footer content container */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Keep In Touch section */
+.keep-in-touch {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.keep-in-touch h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.keep-in-touch p {
+  margin-bottom: 20px;
+  color: #888;
+}
+
+.sign-up-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer links section */
+.footer-links {
+  display: flex;
+  flex: 2;
+}
+
+/* Individual link categories */
+.product-links,
+.company-links,
+.support-links {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.product-links h4,
+.company-links h4,
+.support-links h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Copyright and legal links */
+.legal-links {
+  margin-top: 10px;
+}
+
+.legal-links a {
+  margin-right: 20px;
+  color: #888;
+  text-decoration: none;
+}
+
+/* Powered by section */
+.powered-by {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.powered-by a {
+  margin-left: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
   .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
+    flex-direction: column;
   }
-  
-  /* Keep in Touch Section */
-  .keep-in-touch h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .keep-in-touch p {
-    margin-bottom: 15px;
-  }
-  
-  .sign-up-button {
-    padding: 10px 20px;
-    background-color: #52c0f5;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  /* Footer Links Section */
+
   .footer-links {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
+    flex-direction: column;
   }
-  
-  .product-links ul,
-  .company-links ul,
-  .support-links ul {
-    list-style: none;
-    padding: 0;
+
+  .footer-links > * {
+    padding-right: 0;
+    margin-bottom: 20px;
   }
-  
-  .product-links h4,
-  .company-links h4,
-  .support-links h4 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  /* Copyright and Legal Links */
-  .footer .copyright {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .legal-links a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 5px;
-  }
-  
-  .legal-links a:hover {
-    text-decoration: underline;
-  }
-  
+}

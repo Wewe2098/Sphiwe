@@ -47,6 +47,13 @@ const Footer = () => {
           <a href="/">Referral Terms</a>
         </div>
       </div>
+      <div>
+    <a href="https://www.ucook.co.za/">The site I've clonned</a>
+  </div>
+  <div>
+    <span>Powered by</span>
+    <a href="https://github.com/Wewe2098/Sphiwe">Sphiwe</a>
+  </div>
     </footer>
   );
 };
