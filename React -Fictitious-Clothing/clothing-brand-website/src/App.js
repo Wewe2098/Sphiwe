@@ -1,29 +1,30 @@
 import React from 'react';
-import HeaderBar from './header'; 
+import HeaderBar from './components/Header'; 
 import { Routes, Route, useLocation } from 'react-router-dom';
-import LandingPage from './LandingPage';
-import Profile from './profile'; 
-import Shop from './shop'; 
-import Legal from './legal';
-import Product from './product';
-import InterestCalculator from './InterestCalculator';
+import LandingPage from './components/LandingPage';
+import Profile from './components/Profile'; 
+import Shop from './components/Shop'; 
+import Legal from './components/Legal';
+import Product from './components/Product';
+import InterestCalculator from './components/InterestCalculator';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Import images
-import image_1 from './images/image_1.jpg';
-import image_2 from './images/image_2.jpg';
-import image_3 from './images/image_3.jpg';
-import image_4 from './images/image_4.jpg';
-import image_5 from './images/image_5.jpg';
-import image_6 from './images/image_6.jpg';
-import image_7 from './images/image_7.jpg';
-import image_8 from './images/image_8.jpg';
-import image_9 from './images/image_9.jpg';
+import image_1 from './components/images/image_1.jpg';
+import image_2 from './components/images/image_2.jpg';
+import image_3 from './components/images/image_3.jpg';
+import image_4 from './components/images/image_4.jpg';
+import image_5 from './components/images/image_5.jpg';
+import image_6 from './components/images/image_6.jpg';
+import image_7 from './components/images/image_7.jpg';
+import image_8 from './components/images/image_8.jpg';
+import image_9 from './components/images/image_9.jpg';
 
 const App = () => {
+  // Checking whether the user is logged in
   const isLoggedIn = false;
-
+  // product data
   const products = [
     {
       price: 319.99,
@@ -72,8 +73,10 @@ const App = () => {
     },
   ];
 
+  // Get the current location
   const location = useLocation();
 
+  // Display products based on the current route
   const shouldDisplayProducts = location.pathname === '/shop' || location.pathname === '/';
 
   return (
